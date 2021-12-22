@@ -1,9 +1,10 @@
 .stats {
-    // border: red solid 3px;
+    
     display: flex;
     align-items: center;
     justify-content: start;
     padding: 16px;
+    width: 200px;
     margin-left: 35px;
   }
   
@@ -23,5 +24,6 @@
     text-align: center;
     -webkit-box-shadow: -5px 4px 20px 6px #000000; 
     box-shadow: -5px 4px 20px 6px black;
+    
   }
   
