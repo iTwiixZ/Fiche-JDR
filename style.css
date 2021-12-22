@@ -62,7 +62,7 @@
 
 .skills {
   position: relative;
-  height: 920px;
+  height: 930px;
   left: 262px;
   top: -850px;
   width: 460px;
@@ -82,10 +82,31 @@
 .skills .skill-1 {
   margin-bottom: 16px;
 }
-.skills .title-skill {
+.skills .skill-1 .title-skill {
   font-size: 22px;
   letter-spacing: 2px;
+  font-weight: 700;
   font-family: "Yanone Kaffeesat";
+}
+
+.ultime {
+  width: 450px;
+  height: 265px;
+  background-color: #f6f6f6;
+  border-radius: 10px 10px 10px 10px;
+  border: solid black 2px;
+  -webkit-box-shadow: -5px 4px 20px 6px #000000;
+  box-shadow: -5px 4px 20px 6px black;
+  position: relative;
+  left: 750px;
+  top: -1780px;
+  padding: 16px;
+}
+.ultime .title-ultime {
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-top: 0px;
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

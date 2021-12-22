@@ -1,0 +1,21 @@
+.ultime{
+    width: 450px;
+    height: 265px;
+    background-color: #f6f6f6;
+    border-radius: 10px 10px 10px 10px;
+    border: solid black 2px;
+    -webkit-box-shadow: -5px 4px 20px 6px #000000; 
+    box-shadow: -5px 4px 20px 6px black;
+    position: relative;
+    left: 750px;
+    top: -1780px;
+    padding: 16px;
+    .title-ultime{
+        letter-spacing: 2px;
+        font-size: 22px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+   
+    
+}
