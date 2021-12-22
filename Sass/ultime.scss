@@ -1,6 +1,6 @@
 .ultime{
     width: 450px;
-    height: 265px;
+    height: 255px;
     background-color: #f6f6f6;
     border-radius: 10px 10px 10px 10px;
     border: solid black 2px;
@@ -16,6 +16,8 @@
         margin-top: 0px;
         margin-left: 10px;
     }
-   
+   textarea{
+       border: black solid 3px;
+   }
     
 }
