@@ -1,28 +1,23 @@
 @import url('https://fonts.googleapis.com/css2? family= Pushster & family= Yanone+Kaffeesatz:wght@500 & display=swap');
-body{
+*{
     box-sizing: border-box;
 }
 
 .identity{
-    /* border: solid 3px red; */
     width: 1200px;
-    height: 80px;
     margin: auto;
-    padding: 16px;
-    display: flex;
-    align-items: center;
-    background-color: #f6f6f6;
 
     
-    }
-
-.identity-flex{
+}
+.identity-menu{
     display: flex;
-    gap: 100px;
     justify-content: space-between;
-}    
-
-.identity-item{
-    display: flex;
-    gap: 5px;
+    background-color: #A3A4A6;
+    padding: 16px;
+    -webkit-box-shadow: -5px 4px 20px 6px #000000; 
+    box-shadow: -5px 4px 20px 6px #000000;
+    border-radius: 10px 10px 0 0;
+}
+.title-h1{
+    font-size: 48px;
 }

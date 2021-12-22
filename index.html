@@ -5,34 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <link href="node_modules/normalize.css/normalize.css" rel="stylesheet">
     <title>JDR</title>
 </head>
 <body>
     <!-- HEADER -->
-    <header class="identity">
-        <form class="identity-flex" action="identity" method="post">
+   <header class="identity">
+       <h1 class="title-h1">Le monde de Togaether</h1>
+       <form class="identity-menu" action="jdr" method="post"> 
+           <div class="identity-specs">
+               <label for="name">Nom :</label>
+               <input type="text" id="name" name="nom">
+           </div>
+           <div  class="identity-specs">
+            <label for="race">Race :</label>
+            <input type="text" id="race" name="race">
+        </div>
+        <div  class="identity-specs">
+            <label for="classe">Classe :</label>
+            <input type="text" id="class" name="classe">
+        </div>
+       </form>
+   </header>
 
-            <div class="identity-item">
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="Nom">
-                </div>
-
-                <div class="identity-item">
-                    <label for="name">Race :</label>
-                    <input type="text" id="name" name="Nom">
-                        </div>
-
-                        <div class="identity-item">
-                            <label for="name">Classe :</label>
-                            <input type="text" id="name" name="Nom">
-                                </div>
-
-                                <div class="identity-item">
-                                    <label for="name">Titre :</label>
-                                    <input type="text" id="name" name="Nom">
-                                        </div>
-
-        </form>
-    </header>
 </body>
 </html>
