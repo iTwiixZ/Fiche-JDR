@@ -1,0 +1,25 @@
+.description{
+    background-color: #f6f6f6;
+    width: 790px;
+    height: 655px;
+    border: solid 2px black;
+    border-radius: 10px 10px 10px ;
+    -webkit-box-shadow: -5px 4px 20px 6px #000000; 
+    box-shadow: -5px 4px 20px 6px black;
+    position: relative;
+    left: 750px;
+    top: -1761px;
+    textarea{
+        border: black solid 3px;
+        margin-left: 14px;
+        font-size: 22px;
+    }
+}
+
+.title-description {
+    font-family: 'Yanone Kaffeesat', sans-serif;
+    letter-spacing: 2px;
+    margin-left: 16px;
+    font-weight: bold;
+    font-size: 22px;
+}
