@@ -34,7 +34,6 @@
 }
 
 .stats {
-  border: red solid 3px;
   display: flex;
   align-items: center;
   justify-content: start;
@@ -42,8 +41,17 @@
 }
 
 .stats-name {
-  font-family: "Pushster", sans-serif;
+  font-family: "Yanone Kafeesat", sans-serif;
   font-weight: bold;
+  font-size: 20px;
+}
+
+.stats-number input {
+  border: solid black 4px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
