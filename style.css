@@ -62,10 +62,10 @@
 
 .skills {
   position: relative;
-  height: 800px;
+  height: 920px;
   left: 262px;
   top: -850px;
-  width: 400px;
+  width: 460px;
   background-color: #f6f6f6;
   border: solid 2px black;
   border-radius: 10px 10px 10px 10px;
@@ -76,8 +76,11 @@
   padding: 0;
   margin-left: 23px;
 }
+.skills textarea {
+  border: solid black 2px;
+}
 .skills .skill-1 {
-  margin-bottom: 28px;
+  margin-bottom: 16px;
 }
 .skills .title-skill {
   font-size: 22px;
