@@ -61,11 +61,11 @@
 }
 
 .skills {
-  position: absolute;
+  position: fixed;
   height: 900px;
   left: 262px;
-  width: 350px;
-  bottom: -265px;
+  width: 400px;
+  bottom: -240px;
   background-color: #f6f6f6;
   border: solid 2px black;
   border-radius: 10px 10px 10px 10px;
@@ -74,11 +74,11 @@
 }
 .skills ol {
   padding: 0;
-  margin-left: 25px;
+  margin-left: 23px;
 }
 .skills input {
   height: 150px;
-  width: 300px;
+  width: 350px;
   border-radius: 8px 8px 8px 8px;
   border: solid black 3px;
 }
