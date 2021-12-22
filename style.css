@@ -62,7 +62,7 @@
 
 .skills {
   position: relative;
-  height: 900px;
+  height: 800px;
   left: 262px;
   top: -850px;
   width: 400px;
@@ -76,11 +76,8 @@
   padding: 0;
   margin-left: 23px;
 }
-.skills input {
-  height: 150px;
-  width: 350px;
-  border-radius: 8px 8px 8px 8px;
-  border: solid black 3px;
+.skills .skill-1 {
+  margin-bottom: 28px;
 }
 .skills .title-skill {
   font-size: 22px;
