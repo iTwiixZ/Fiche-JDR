@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2? family= Pushster & family= Yanone+Kaffeesatz:wght@500 & display=swap');
-*{
+body{
     box-sizing: border-box;
 }
 
@@ -21,3 +21,8 @@
     gap: 100px;
     justify-content: space-between;
 }    
+
+.identity-item{
+    display: flex;
+    gap: 5px;
+}
