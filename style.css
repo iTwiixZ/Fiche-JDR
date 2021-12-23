@@ -156,6 +156,7 @@ body {
 }
 .talents textarea {
   border: black solid 3px;
+  resize: none;
 }
 .talents h3 {
   font-size: 22px;
@@ -184,6 +185,7 @@ body {
 .inventory textarea {
   margin-left: 11px;
   border: black solid 3px;
+  resize: none;
 }
 
 /*# sourceMappingURL=style.css.map */
