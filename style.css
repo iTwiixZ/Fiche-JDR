@@ -47,6 +47,8 @@ body {
   justify-content: start;
   padding: 16px;
   width: 200px;
+  position: relative;
+  top: 85px;
 }
 
 .stats-name {
@@ -149,7 +151,7 @@ body {
 
 .talents {
   position: relative;
-  left: 570px;
+  left: 535px;
   width: 1165px;
   background-color: #f6f6f6;
   border: 3px solid black;
@@ -165,17 +167,17 @@ body {
   font-size: 24px;
 }
 .talents h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-family: "Yanone Kafeesat", sans-serif;
   letter-spacing: 2px;
 }
 
 .inventory {
   position: relative;
-  bottom: 2415px;
-  left: 95px;
+  bottom: 2310px;
+  left: 60px;
   width: 450px;
-  height: 545px;
+  height: 578px;
   background-color: #f6f6f6;
   border: solid black 3px;
   border-radius: 10px 10px 10px 10px;
@@ -201,10 +203,10 @@ body {
   -webkit-box-shadow: -5px 4px 20px 6px #000000;
   box-shadow: -5px 4px 20px 6px black;
   position: relative;
-  width: 350px;
+  width: 315px;
   height: 939px;
   left: 1388px;
-  bottom: 3942px;
+  bottom: 3875px;
 }
 .specs textarea {
   border: solid black 3px;
