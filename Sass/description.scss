@@ -9,6 +9,11 @@
     position: relative;
     left: 675px;
     top: -1761px;
+    h3{
+        display: flex;
+        align-self: center;
+        gap: 30px;
+    }
     textarea{
         border: black solid 3px;
         margin-left: 14px;

@@ -1,12 +1,14 @@
 .identity {
     width: 1200px;
     margin: auto;
-    margin-bottom: 48px;
+    margin-bottom: -25px;
   }
   
   .identity-menu {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: #A3A4A6;
     padding: 16px;
     -webkit-box-shadow: -5px 4px 20px 6px #000000;
@@ -21,6 +23,11 @@
     font-weight: 600;
     padding: 16px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
   }
   
   .identity-specs {
@@ -28,3 +35,7 @@
     font-weight: bold;
     letter-spacing: 1px;
   }
+ 
+.dragon{
+  
+}  

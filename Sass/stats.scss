@@ -7,12 +7,24 @@
     width: 200px;
     position: relative;
     top: 85px;
+    left: -10px;
+    h3{
+      display: flex;
+      align-items: center;
+      gap:10px;
+      img{
+        margin-left: -24px;
+      }
+    }
   }
   
   .stats-name {
     font-family: 'Yanone Kafeesat',sans-serif;
     font-weight: bold;
     font-size: 20px;
+    display: flex;
+    align-self: center;
+    
   }
 
   .stats-number input {

@@ -6,52 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="node_modules/normalize.css/normalize.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>JDR</title>
 </head>
 <body>
     <!-- HEADER -->
-   <header class="identity">
-       <h1 class="title-h1">Le monde de Togaether</h1>
+    
+    <header class="identity">
+       <h1 class="title-h1">Le monde de Togaether 
+        <img class="dragon" src="/images/2029670.svg" alt="dragon" width="100px" height="100px">
+       </h1>
        <form class="identity-menu" action="jdr" method="post"> 
+           <img class="homme" src="/images/146257.svg" alt="perso" width="25px">
            <div class="identity-specs">
                <label for="name">Nom :</label>
                <input type="text" id="name" name="nom">
-           </div>
-           <div class="identity-specs">
-            <label for="race">Race :</label>
-            <input type="text" id="race" name="race">
-        </div>
-        <div  class="identity-specs">
-            <label for="classe">Classe :</label>
-            <input type="text" id="class" name="classe">
-        </div>
-       </form>
-   </header>
-
+            </div>
+            <div class="identity-specs">
+                <label for="race">Race :</label>
+                <input type="text" id="race" name="race">
+            </div>
+            <div  class="identity-specs">
+                <label for="classe">Classe :</label>
+                <input type="text" id="class" name="classe">
+            </div>
+        </form>
+    </header>
+    
+    
     <!-- STATISTIQUES -->
    <div class="stats">
        <ol>
-           <h3 class="stats-name">Force</h3>
+           <h3 class="stats-name"><img src="/images/arm-muscles-silhouette-svgrepo-com.svg" alt="muscle" width="30px">Force</h3>
            <div class="stats-number">
                <input type="text" id="force" name="force">
            </div>
-           <h3 class="stats-name">Sagesse</h3>
+           <h3 class="stats-name"><img src="/images/yin-yang-svgrepo-com.svg" alt="sagesse" width="25px"> Sagesse</h3>
            <div class="stats-number">
                <input type="text" id="force" name="force">
            </div>
-           <h3 class="stats-name">Dextérité</h3>
+           <h3 class="stats-name"><img src="/images/dexterity.svg" alt="dexter" width="25px"> Dextérité</h3>
            <div class="stats-number">
                <input type="text" id="force" name="force">
            </div>
-           <h3 class="stats-name">Constitution</h3>
+           <h3 class="stats-name"><img src="/images/constitution.svg" alt="body" width="21px"> Constitution</h3>
            <div class="stats-number">
                <input type="text" id="force" name="force">
            </div>
-           <h3 class="stats-name">Charisme</h3>
+           <h3 class="stats-name"><img src="/images/charisme.svg" alt="charisme" width="25px">Charisme</h3>
            <div class="stats-number">
                <input type="text" id="force" name="force">
            </div>
-           <h3 class="stats-name">Intelligence</h3>
+           <h3 class="stats-name"><img src="/images/intelligence.svg" alt="cervo" width="22px"> Intelligence</h3>
            <div class="stats-number">
                <input type="text" id="force" name="force">
            </div>
@@ -63,19 +69,19 @@
    <div class="skills">
        <ol>
            <div class="skill-1">
-            <h3 class="title-skill">Compétence 1</h3>
+            <h3 class="title-skill">Compétence 1 <img src="/images/competence.svg" alt="comp" width="22px"> </h3>
                <textarea cols="49" rows="8"></textarea>
            </div>
            <div class="skill-1">
-            <h3 class="title-skill">Compétence 2</h3>
+            <h3 class="title-skill">Compétence 2 <img src="/images/competence.svg" alt="comp" width="22px"></h3>
             <textarea cols="49" rows="8"></textarea>
        </div>
        <div class="skill-1">
-        <h3 class="title-skill">Compétence 3</h3>
+        <h3 class="title-skill">Compétence 3 <img src="/images/competence.svg" alt="comp" width="22px"></h3>
         <textarea cols="49" rows="8"></textarea>
    </div>
    <div class="skill-1">
-    <h3 class="title-skill">Compétence 4</h3>
+    <h3 class="title-skill">Compétence 4 <img src="/images/competence.svg" alt="comp" width="22px"></h3>
     <textarea cols="49" rows="8"></textarea>
 </div>
        </ol>
@@ -83,13 +89,13 @@
 
    <!-- ULTIME -->
    <div class="ultime">
-       <h3 class="title-ultime">Ultime</h3>
+       <h3 class="title-ultime">Ultime <img src="/images/ultimate.svg" alt="épée" width="30px"> </h3>
        <textarea cols="80" rows="11"></textarea>
    </div>
 
    <!-- DESCRIPTION -->
    <div class="description">
-       <h3 class="title-description">Description</h3>
+       <h3 class="title-description">Description <img src="/images/description.svg" alt="comp" width="25px"></h3>
        <textarea cols="58" rows="20"></textarea>
    </div>
 
@@ -97,15 +103,15 @@
    <div class="talents">
        <ol>
            <div class="talent-description">
-               <h3>Talent 1</h3>
+               <h3>Talent 1 <img src="/images/talent.svg" alt="stars" width="30px"></h3>
                <textarea cols="92" rows="4"></textarea>
            </div>
            <div class="talent-description">
-            <h3>Talent 2</h3>
+            <h3>Talent 2 <img src="/images/talent.svg" alt="stars" width="30px"></h3>
             <textarea cols="92" rows="4"></textarea>
         </div>
         <div class="talent-description">
-            <h3>Talent 3</h3>
+            <h3>Talent 3 <img src="/images/talent.svg" alt="stars" width="30px"></h3>
             <textarea cols="92" rows="4"></textarea>
         </div>
        </ol>
@@ -113,29 +119,35 @@
 
    <!-- INVENTAIRE -->
    <div class="inventory">
-       <h3>Inventaire</h3>
-       <textarea cols="50" rows="26"></textarea>
+       <h3>Inventaire
+           <img src="/images/chest-svgrepo-com (1).svg" alt="chest" width="40px">
+       </h3>
+       <textarea cols="50" rows="27"></textarea>
+       
    </div>
    <!-- POINT FORT/FAIBLE/IDEAUX -->
 <div class="specs">
     <div class="fort">
-        <h3>Points fort</h3>
+        <h3>Points fort <img src="/images/fort.svg" alt="comp" width="30px"></h3>
         <textarea cols="33" rows="13"></textarea>
     </div>
     <div class="fort">
-        <h3>Points faible</h3>
+        <h3>Points faible <img src="/images/faiblesse.svg" alt="comp" width="30px"></h3>
         <textarea cols="33" rows="12"></textarea>
     </div>
     <div class="fort">
-        <h3>Idéaux</h3>
+        <h3>Idéaux <img src="/images/ideaux.svg" alt="comp" width="30px"></h3>
         <textarea cols="33" rows="11"></textarea>
     </div>
 </div>
 
-<!-- DOWNLOAD -->
-<div class="btn">
-<a href="https://lemondedetogaether.booki.go.yj.fr/" target="_blank" download="Fiche JDR.pdf">Télécharger en PDF</a>
+<!-- INSTRUCTION -->
+<p>Pour enregistrer votre fiche, veuillez effectuer un clique droit --> Imprimer --> enregistrer au format pdf --> plus de paramètre --> taille du papier : A1 --> Marges : Aucune --> Mise a l'échelle personnalisé --> 100</p>
 
-</div>
+
+
+
+
+<script src="https://use.fontawesome.com/66e002882f.js"></script>
 </body>
 </html>

@@ -6,19 +6,34 @@
 
 body {
   margin: auto;
-  width: 1654px;
-  height: 2339px;
+  width: 1750px;
+  height: 2150px;
+  background-color: #F5F5F5;
+  -webkit-box-shadow: -5px 4px 20px 6px #000000;
+  box-shadow: -5px 4px 20px 6px black;
+  border-radius: 20px 20px 0 0;
+}
+
+p {
+  position: relative;
+  font-family: "Yannone Kaffeesatz", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  bottom: 3250px;
+  left: 50px;
 }
 
 .identity {
   width: 1200px;
   margin: auto;
-  margin-bottom: 48px;
+  margin-bottom: -25px;
 }
 
 .identity-menu {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
   background-color: #A3A4A6;
   padding: 16px;
   -webkit-box-shadow: -5px 4px 20px 6px #000000;
@@ -33,6 +48,10 @@ body {
   font-weight: 600;
   padding: 16px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 
 .identity-specs {
@@ -49,12 +68,23 @@ body {
   width: 200px;
   position: relative;
   top: 85px;
+  left: -10px;
+}
+.stats h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.stats h3 img {
+  margin-left: -24px;
 }
 
 .stats-name {
   font-family: "Yanone Kafeesat", sans-serif;
   font-weight: bold;
   font-size: 20px;
+  display: flex;
+  align-self: center;
 }
 
 .stats-number input {
@@ -81,12 +111,18 @@ body {
   -webkit-box-shadow: -5px 4px 20px 6px #000000;
   box-shadow: -5px 4px 20px 6px black;
 }
+.skills h3 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
 .skills ol {
   padding: 0;
   margin-left: 23px;
 }
 .skills textarea {
   border: solid black 3px;
+  resize: none;
 }
 .skills .skill-1 {
   margin-bottom: 16px;
@@ -99,7 +135,7 @@ body {
 
 .ultime {
   width: 660px;
-  height: 255px;
+  height: 265px;
   background-color: #f6f6f6;
   border-radius: 10px 10px 10px 10px;
   border: solid black 2px;
@@ -109,6 +145,11 @@ body {
   left: 675px;
   top: -1793px;
   padding: 16px;
+}
+.ultime h3 {
+  display: flex;
+  align-items: center;
+  gap: 26px;
 }
 .ultime .title-ultime {
   letter-spacing: 2px;
@@ -133,6 +174,11 @@ body {
   position: relative;
   left: 675px;
   top: -1761px;
+}
+.description h3 {
+  display: flex;
+  align-self: center;
+  gap: 30px;
 }
 .description textarea {
   border: black solid 3px;
@@ -170,14 +216,17 @@ body {
   font-size: 20px;
   font-family: "Yanone Kafeesat", sans-serif;
   letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
 
 .inventory {
   position: relative;
-  bottom: 2310px;
+  bottom: 2335px;
   left: 60px;
   width: 450px;
-  height: 578px;
+  height: 604px;
   background-color: #f6f6f6;
   border: solid black 3px;
   border-radius: 10px 10px 10px 10px;
@@ -186,9 +235,12 @@ body {
 }
 .inventory h3 {
   font-size: 22px;
-  margin-left: 10px;
+  margin-left: 16px;
   letter-spacing: 2px;
   font-family: "Yanone Kaffeesat", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .inventory textarea {
   margin-left: 11px;
@@ -204,9 +256,14 @@ body {
   box-shadow: -5px 4px 20px 6px black;
   position: relative;
   width: 315px;
-  height: 939px;
+  height: 950px;
   left: 1388px;
-  bottom: 3875px;
+  bottom: 3930px;
+}
+.specs h3 {
+  display: flex;
+  align-items: center;
+  gap: 25px;
 }
 .specs textarea {
   border: solid black 3px;
@@ -218,32 +275,6 @@ body {
   margin-left: 16px;
   font-family: "Yanone Kafeesat", sans-serif;
   letter-spacing: 2px;
-}
-
-.btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  bottom: 3150px;
-}
-.btn a {
-  display: flex;
-  font-family: "Pushster", sans-serif;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-  width: 150px;
-  height: 80px;
-  transition: all 250ms ease-in;
-}
-.btn a:hover {
-  cursor: pointer;
-  transform: scale(1.085);
-  border-top: solid 3px black;
-  border-bottom: solid 3px black;
 }
 
 /*# sourceMappingURL=style.css.map */
