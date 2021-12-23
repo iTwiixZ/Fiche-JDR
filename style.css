@@ -220,4 +220,30 @@ body {
   letter-spacing: 2px;
 }
 
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 3150px;
+}
+.btn a {
+  display: flex;
+  font-family: "Pushster", sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  width: 150px;
+  height: 80px;
+  transition: all 250ms ease-in;
+}
+.btn a:hover {
+  cursor: pointer;
+  transform: scale(1.085);
+  border-top: solid 3px black;
+  border-bottom: solid 3px black;
+}
+
 /*# sourceMappingURL=style.css.map */
