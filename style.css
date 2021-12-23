@@ -85,8 +85,7 @@
 .skills .skill-1 .title-skill {
   font-size: 22px;
   letter-spacing: 2px;
-  font-weight: 700;
-  font-family: "Yanone Kaffeesat";
+  font-family: "Yanone Kaffeesat", sans-serif;
 }
 
 .ultime {
@@ -137,6 +136,26 @@
   margin-left: 16px;
   font-weight: bold;
   font-size: 22px;
+}
+
+.talents {
+  position: relative;
+  left: 750px;
+  width: 1350px;
+  background-color: #f6f6f6;
+  border: 3px solid black;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: -5px 4px 20px 6px #000000;
+  box-shadow: -5px 4px 20px 6px black;
+  bottom: 1727px;
+}
+.talents textarea {
+  border: black solid 3px;
+}
+.talents h3 {
+  font-size: 22px;
+  font-family: "Yanone Kafeesat", sans-serif;
+  letter-spacing: 2px;
 }
 
 /*# sourceMappingURL=style.css.map */

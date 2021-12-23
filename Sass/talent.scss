@@ -1,0 +1,19 @@
+.talents
+{   position: relative;
+    left: 750px;
+    width: 1350px;
+    background-color: #f6f6f6;
+    border: 3px solid black;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: -5px 4px 20px 6px #000000; 
+    box-shadow: -5px 4px 20px 6px black;
+    bottom: 1727px;
+    textarea{
+        border: black solid 3px;
+    }
+    h3{
+        font-size: 22px;
+        font-family: 'Yanone Kafeesat', sans-serif;
+        letter-spacing: 2px;
+    }
+}
