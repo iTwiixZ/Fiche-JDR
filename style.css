@@ -5,7 +5,9 @@
 }
 
 body {
-  margin: 0;
+  margin: auto;
+  width: 1654px;
+  height: 2339px;
 }
 
 .identity {
@@ -44,7 +46,6 @@ body {
   justify-content: start;
   padding: 16px;
   width: 200px;
-  margin-left: 35px;
 }
 
 .stats-name {
@@ -68,7 +69,7 @@ body {
 .skills {
   position: relative;
   height: 940px;
-  left: 262px;
+  left: 190px;
   top: -850px;
   width: 460px;
   background-color: #f6f6f6;
@@ -94,7 +95,7 @@ body {
 }
 
 .ultime {
-  width: 790px;
+  width: 660px;
   height: 255px;
   background-color: #f6f6f6;
   border-radius: 10px 10px 10px 10px;
@@ -102,8 +103,8 @@ body {
   -webkit-box-shadow: -5px 4px 20px 6px #000000;
   box-shadow: -5px 4px 20px 6px black;
   position: relative;
-  left: 750px;
-  top: -1789px;
+  left: 675px;
+  top: -1793px;
   padding: 16px;
 }
 .ultime .title-ultime {
@@ -115,24 +116,26 @@ body {
 }
 .ultime textarea {
   border: black solid 3px;
+  resize: none;
 }
 
 .description {
   background-color: #f6f6f6;
-  width: 824px;
-  height: 620px;
+  width: 693px;
+  height: 616px;
   border: solid 2px black;
   border-radius: 10px 10px 10px;
   -webkit-box-shadow: -5px 4px 20px 6px #000000;
   box-shadow: -5px 4px 20px 6px black;
   position: relative;
-  left: 750px;
+  left: 675px;
   top: -1761px;
 }
 .description textarea {
   border: black solid 3px;
   margin-left: 14px;
   font-size: 22px;
+  resize: none;
 }
 
 .title-description {
@@ -145,8 +148,8 @@ body {
 
 .talents {
   position: relative;
-  left: 750px;
-  width: 1350px;
+  left: 570px;
+  width: 1165px;
   background-color: #f6f6f6;
   border: 3px solid black;
   border-radius: 10px 10px 10px 10px;
@@ -157,6 +160,8 @@ body {
 .talents textarea {
   border: black solid 3px;
   resize: none;
+  margin-left: -24px;
+  font-size: 24px;
 }
 .talents h3 {
   font-size: 22px;
@@ -166,8 +171,8 @@ body {
 
 .inventory {
   position: relative;
-  bottom: 2275px;
-  left: 260px;
+  bottom: 2415px;
+  left: 95px;
   width: 450px;
   height: 545px;
   background-color: #f6f6f6;
@@ -195,14 +200,15 @@ body {
   -webkit-box-shadow: -5px 4px 20px 6px #000000;
   box-shadow: -5px 4px 20px 6px black;
   position: relative;
-  width: 500px;
+  width: 350px;
   height: 939px;
-  left: 1600px;
-  bottom: 3804px;
+  left: 1388px;
+  bottom: 3942px;
 }
 .specs textarea {
-  border: solid black 2px;
+  border: solid black 3px;
   margin-left: 10px;
+  resize: none;
 }
 .specs h3 {
   font-size: 22px;

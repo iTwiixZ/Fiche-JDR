@@ -1,18 +1,19 @@
 .description{
     background-color: #f6f6f6;
-    width: 824px;
-    height: 620px;
+    width: 693px;
+    height: 616px;
     border: solid 2px black;
     border-radius: 10px 10px 10px ;
     -webkit-box-shadow: -5px 4px 20px 6px #000000; 
     box-shadow: -5px 4px 20px 6px black;
     position: relative;
-    left: 750px;
+    left: 675px;
     top: -1761px;
     textarea{
         border: black solid 3px;
         margin-left: 14px;
         font-size: 22px;
+        resize: none;
     }
 }
 

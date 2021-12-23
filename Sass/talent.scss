@@ -1,7 +1,7 @@
 .talents
 {   position: relative;
-    left: 750px;
-    width: 1350px;
+    left: 570px;
+    width: 1165px;
     background-color: #f6f6f6;
     border: 3px solid black;
     border-radius: 10px 10px 10px 10px;
@@ -11,6 +11,8 @@
     textarea{
         border: black solid 3px;
         resize: none;
+        margin-left: -24px;
+        font-size: 24px;
     }
     h3{
         font-size: 22px;

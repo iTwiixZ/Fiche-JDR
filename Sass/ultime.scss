@@ -1,5 +1,5 @@
 .ultime{
-    width: 790px;
+    width: 660px;
     height: 255px;
     background-color: #f6f6f6;
     border-radius: 10px 10px 10px 10px;
@@ -7,8 +7,8 @@
     -webkit-box-shadow: -5px 4px 20px 6px #000000; 
     box-shadow: -5px 4px 20px 6px black;
     position: relative;
-    left: 750px;
-    top: -1789px;
+    left: 675px;
+    top: -1793px;
     padding: 16px;
     .title-ultime{
         letter-spacing: 2px;
@@ -19,6 +19,7 @@
     }
    textarea{
        border: black solid 3px;
+       resize: none;
        
    }
     
